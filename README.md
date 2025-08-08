@@ -34,6 +34,21 @@ Removes line breaks from a user-specified column in a Google Sheet.
 ### google_sheet_resetColumnWidths.js
 Resets the width of all columns in a Google Sheet to the default value.
 
+### google_docs_count_words.js
+Counts words in a Google Doc and updates a Google Spreadsheet with the count. It also has a function to find and highlight specific words.
+
+### google_docs_create_toc_bookmarks.js
+Automatically generates a Table of Contents (TOC) at the top of a Google Doc from bookmarks.
+
+### google_sheet_rss.js
+Fetches, aggregates, and sorts RSS feeds from multiple sources and populates a Google Sheet tab with the data.
+
+### google_sheet_to_email.js
+Reads data from a Google Sheet, filters it, and sends an email with the filtered data.
+
+### google_sheet_to_html.js
+Creates a web app that displays data from a Google Sheet in an HTML table.
+
 ## Security Warning
 
-Several scripts in this repository contain placeholder API keys. Before using these scripts, you must replace the placeholder values with your actual API keys. For better security, it is highly recommended to use the [Google Apps Script Properties Service](https://developers.google.com/apps-script/guides/properties) to store your API keys instead of hardcoding them directly in the scripts.
+Several scripts in this repository contain placeholder API keys or URLs. Before using these scripts, you must replace the placeholder values with your actual API keys and URLs. For better security, it is highly recommended to use the [Google Apps Script Properties Service](https://developers.google.com/apps-script/guides/properties) to store your API keys instead of hardcoding them directly in the scripts.
